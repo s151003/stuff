@@ -1,0 +1,17 @@
+sudo apt-get update
+sudo apt-get -y dist-upgrade
+sudo apt-get -y autoremove
+sudo apt-get autoclean
+# pip install lxml error
+# https://stackoverflow.com/questions/5178416/pip-install-lxml-error
+sudo apt-get install python-dev libxml2-dev libxslt1-dev zlib1g-dev
+
+# Raspbian(Raspberry Pi 3)にビルドせずにPhantomjsを入れる
+# https://qiita.com/toyoshi/items/dc9f9316a958a1b2991d
+curl -o /tmp/phantomjs -sSL https://github.com/fg2it/phantomjs-on-raspberry/releases/download/v2.1.1-wheezy-jessie/phantomjs
+sudo mv /tmp/phantomjs /usr/local/bin/phantomjs
+sudo chmod a+x /usr/local/bin/phantomjs
+
+sudo pip install bs4
+sudo pip install lxml
+sudo pip install selenium
