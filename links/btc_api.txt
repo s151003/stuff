@@ -22,3 +22,5 @@ https://blockmeta.com/api/v1/btc/address/$address?q=info
 https://chainz.cryptoid.info/btc/api.dws?q=getbalance&a=$address
 ・bitcoinchain
 https://api-r.bitcoinchain.com/v1/address/txs/$address
+・spectrocoin
+https://explorer.spectrocoin.com/api/addr/$address
