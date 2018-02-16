@@ -20,3 +20,5 @@ https://api.smartbit.com.au/v1/blockchain/address/$address
 https://blockmeta.com/api/v1/btc/address/$address?q=info
 ・chainz
 https://chainz.cryptoid.info/btc/api.dws?q=getbalance&a=$address
+・bitcoinchain
+https://api-r.bitcoinchain.com/v1/address/txs/$address
