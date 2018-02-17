@@ -1,26 +1,27 @@
 $address = address
+ping Tokyo, Japan
 
-・blockchair
-https://api.blockchair.com/bitcoin/dashboards/address/$address
-・blockchain
-https://blockchain.info/ja/q/getreceivedbyaddress/$address
-・btc.com
-https://chain.api.btc.com/v3/address/$address
-・chain.so
-https://chain.so/api/v2/get_address_balance/BTC/$address
-・blockcypher
-https://api.blockcypher.com/v1/btc/main/addrs/$address
-・chainflyer
+・chainflyer (3ms)
 https://chainflyer.bitflyer.jp/v1/address/$address
-・bitaps
-https://bitaps.com/api/address/$address
-・smartbit
-https://api.smartbit.com.au/v1/blockchain/address/$address
-・blockmeta
-https://blockmeta.com/api/v1/btc/address/$address?q=info
-・chainz
-https://chainz.cryptoid.info/btc/api.dws?q=getbalance&a=$address
-・bitcoinchain
-https://api-r.bitcoinchain.com/v1/address/txs/$address
-・spectrocoin
+・spectrocoin (4ms)
 https://explorer.spectrocoin.com/api/addr/$address
+・blockchain (4ms)
+https://blockchain.info/ja/q/getreceivedbyaddress/$address
+・blockmeta (4ms)
+https://blockmeta.com/api/v1/btc/address/$address?q=info
+・chainz (4ms)
+https://chainz.cryptoid.info/btc/api.dws?q=getbalance&a=$address
+・chain.so (33ms)
+https://chain.so/api/v2/get_address_balance/BTC/$address
+・btc.com (50ms)
+https://chain.api.btc.com/v3/address/$address
+・bitaps (254ms)
+https://bitaps.com/api/address/$address
+・blockchair(250ms)
+https://api.blockchair.com/bitcoin/dashboards/address/$address
+・bitcoinchain (288ms)
+https://api-r.bitcoinchain.com/v1/address/txs/$address
+・smartbit (denied)
+https://api.smartbit.com.au/v1/blockchain/address/$address
+・blockcypher (denied)
+https://api.blockcypher.com/v1/btc/main/addrs/$address
