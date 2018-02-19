@@ -1,6 +1,7 @@
 $id = [a-z][A-Z][0-9][-/_]
 
-https://i.ytimg.com/vi/$id/default.jpg
+https://i.ytimg.com/vi/$id*14/default.jpg
 
 404
 MD5 e2ddfee11ae7edcae257da47f3a78a70
+4KB
