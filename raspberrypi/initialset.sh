@@ -1,25 +1,12 @@
-sudo apt-get update
+sudo apt-get -y update
 sudo apt-get -y dist-upgrade
 sudo apt-get -y autoremove
-sudo apt-get autoclean
-sudo apt-get install python-lxml
-sudo apt-get install python-dev libxml2-dev libxslt1-dev zlib1g-dev
+sudo apt-get -y autoclean
+sudo apt-get -y install python-lxml
+sudo apt-get -y install python-dev libxml2-dev libxslt1-dev zlib1g-dev
 # Raspberry Pi とWindows でファイル共有(samba) - 工作と小物のがらくた部屋
 # https://junkroom2cyberrobotics.blogspot.jp/2013/01/raspberry-pi-windows-samba.html
-sudo apt-get install samba
-
-sudo nano /etc/samba/smb.conf
-
-     [pi]
-      comment = pi's home
-      path = home/pi
-      public = Yes
-      read only = No
-      writable = Yes
-      guest ok = Yes
-      force user = pi
-      directory mode = 0777
-      create mode = 0666
+sudo apt-get -y install samba
 
 # Raspbian(Raspberry Pi 3)にビルドせずにPhantomjsを入れる - qiita
 # https://qiita.com/toyoshi/items/dc9f9316a958a1b2991d
