@@ -1,4 +1,4 @@
-$id = [a-z][A-Z][0-9][-/_]
+$id = [a-zA-Z0-9-/_]
 
 https://i.ytimg.com/vi/$id*14/default.jpg
 
